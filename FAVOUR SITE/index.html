@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karellina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Hogoza.png" type="image/x-icon">
+</head>
+<body>
+    
+    <header>
+
+        <div class="blog_name">
+            <span>Karellina Blog</span>
+        </div>
+
+        <h1>Karellina</h1>
+
+    </header>
+
+    <div class="main">
+
+        <div class="con">
+            <div class="about_btn">
+                <a href="portfolio.html">Get Started</a>
+            </div>
+        </div>
+
+        <h2 onclick="go_portfolio()" class="portfolio">Portfolio</h2>
+
+        <h2 class="gtg">GTG Daughter.</h2>
+
+        <div class="show_case">
+
+            <div onclick="go_portfolio()" class="show">
+                <img src="Hogoza.png" alt="Karell">
+                <span>Discover the most amazing part of my experience! <br><br> Encounter various architects right here...</span>
+            </div>
+
+            <div onclick="go_portfolio()" class="show">
+                <img src="karell.jpg" alt="Karell">
+                <span>It has always been hard work of-course. Not all comes as just as easy.</span>
+            </div>
+
+        </div>
+
+        <div class="con">
+            <div class="connect_btn">
+                <a href="connect.html">Connect</a>
+            </div>
+        </div>
+
+        <h2 class="community">My Community:</h2>
+
+        <div class="join">
+            <p class="info">Connect to my group and recieve upto date notifications about achievements in day to day life. Join my chat group where we share knowledge about achieving success today.
+                With those that joined my group, we share amazing chats about how to obtain success without failure. Here we meet many experienced members of which some have lively
+                life experience in their respective sectors.
+            </p>
+            <a href="join.html">Join</a>
+        </div>
+
+        
+        <div class="con">
+            <div class="about_btn">
+                <a href="about.html">About me</a>
+            </div>
+        </div>   
+
+        <hr size="2" color="gray">
+
+        <h2>Short Bio:</h2>
+
+        <p>I come from amazing family in Rwanda. It just happened that I came up with a plan to make my dream come true, that is sharing my experience with the community. That's where I get to meet many people of my kind, well, you <a href="join.html">join</a> and find more of your kind.</p>
+
+        <div class="more_intro">
+
+            <h2>Let's Chat</h2>
+
+            <p><a href="join.html">Join</a> my community and we chat.</p>
+
+        </div>
+
+        <hr size="2" color="gray">
+
+        <h2 class="gtg">GTG Lovely Family Presents</h2>
+        
+        <h2>Amazing Community Bangers</h2>
+
+        <p class="banger">Be the first to <a href="join.html">comment</a>. Share your profile with other members.
+            <a href="connect.html">Connect</a> and have fun with my community. Always remember to contribue to my community chat board.
+        </p>
+
+        <h3 class="challenge">Did you know that 'Karellina' blog has challenge games! <br> Be the first to try out the challenges <br>
+            Prizes await those ready to take part in the challenges!
+            <br>
+            <div id="challenge" class="challenge_box">
+                <form name="Challenge Register Form" netlify>
+                    <input id="take_item" type="text" placeholder="-User-Name-" name="User Name" required>
+                    <input id="take_item2" type="email" name="User Email" placeholder="-User-Email-" required>
+                    <input class="challenge_btn" type="submit" value="Register">
+                </form>
+            </div>
+            <br>
+
+            <button onclick="out()" type="button">Challenge</button>
+
+        </h3>
+
+    </div>
+
+    <footer>
+
+        <div class="flinks">
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="connect.html">Connect</a>
+            <a href="join.html">Join</a>
+            <a href="about.html">About</a>
+            <a href="feedback.html">Feedback</a>
+
+            <p>"Karellina: Once a 'rellina', always 'Karellina' "</p>
+            <p>&copy;Karellina <br> All rights reserved</p>
+        </div>
+        
+        <div class="flinks">
+            <p>Reach me on:</p>
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.twitter.com">Twitter</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.telegram.com">Telegram</a>
+            <p>Let's go <a href="https://www.instagram/live.com">live....</a></p>
+        </div>
+
+        <div class="fmob">
+            <img src="karell.jpg" alt="Karaell">
+            <p>"Omuntu Wa Bantu"</p>
+        </div>
+
+        <div class="fmob">
+            <img src="Karell Hogoza.jpg" alt="">
+            <p>"My blog, my lifestyle"</p>
+        </div>
+
+    </footer>
+
+    <script>
+
+        function go_portfolio(){
+            window.location = "portfolio.html";
+        }
+        
+        function out(){
+            var challnge_box = document.getElementById("challenge");
+
+            challnge_box.classList.toggle("out"); 
+        }
+
+    </script>
+
+</body>
+</html>

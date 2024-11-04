@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karellina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Hogoza.png" type="image/x-icon">
+</head>
+<body>
+    
+    <header>
+
+        <div class="blog_name">
+            <span>Karellina Blog</span>
+        </div>
+
+        <div class="hed_cont">
+            <h1>Karellina</h1>
+
+            <div id="ham" onclick="menu()" class="hambarger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div id="menu_link" class="links">
+                <a href="index.html">Home</a>
+                <a id="on" href="portfolio.html">Portfolio</a>
+                <a href="connect.html">Connect</a>
+                <a href="join.html">Join</a>
+                <a href="about.html">About</a>
+                <a href="feedback.html">Feedback</a>
+            </div>
+        </div>
+
+    </header>
+
+    <script>
+        function menu(){
+            var Ham = document.getElementById("ham");
+            var Menu = document.getElementById("menu_link");
+
+            Ham.classList.toggle("active");
+            Menu.classList.toggle("active");
+        }
+    </script>
+
+    <div class="main">
+
+        <h2>My Portfolio:</h2>
+        <p>All the hard work displayed here in one place.</p>
+        
+        <div class="portfolio_disp">
+
+            <div class="port_tab">
+
+                <div class="portfolio_item">
+                    <img src="karellina2.jpg" alt="Karellina">
+                    <span>This could be no portfolio item, but the experience I gained is the secret behind its existence here.
+                        The famous 'Kasenyi' landing site Entebbe.
+                    </span>
+                </div>
+    
+                <div class="portfolio_item">
+                    <img src="Karell Hogoza.jpg" alt="Karellina">
+                    <span>Well, this is actually when I just got myself new glasses for my eyes after a short eye defect, because of his prayers, I got saved and live to share more with you guys.
+                    </span>
+                </div>
+    
+                <div class="portfolio_item">
+                    <img src="school.jpg">
+                    <span>
+                        Well, school has been my #1 priority. New curriculum of-course making us so busy, but with a few clicks we finally succeed and excel.
+                    </span>
+                </div>
+
+            </div>
+            
+            <div class="port_tab">
+
+                <div class="portfolio_item">
+                    <img src="Hogoza.png" alt="Karellina">
+                    <span>
+                        Touring is always part of me though, I hate visiting scary places.     
+                    </span>
+                </div>
+    
+                <div class="portfolio_item">
+                    <img src="Hogoza Karell.jpg" alt="Karellina">
+                    <span>
+                        Snaps are going viral in my schedule for no reason.
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <h1>Community Chat Board:</h1>
+
+        <div class="chat_board">
+
+            <div class="chatting">
+                <div class="chat_area">
+                    <span class="chat_name">Karaell</span>
+                    <p>Hello, do you guys also find it hard to oraganise your gallery?</p>
+                </div>
+    
+                <div class="chat_area2">
+                    <span class="chat_name">Karaman</span>
+                    <p>Hi everyone you should learn this, 'your phone does the organising of your gallery!'</p>
+                </div>
+
+                <div id="load2" class="chat_area3">
+                    <p>Loading...</p>
+                </div>
+
+            </div>
+
+            <div class="btns">
+                
+                <form name="Community Posts Form" netlify>
+                    <input type="text" name="Post" placeholder="Compose..." required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                <button type="submit">Post</button>
+                </form>
+
+            </div>
+
+            <p>Your posts will be added to the <b>Chat Board</b> after a review!</p>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="flinks">
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="connect.html">Connect</a>
+            <a href="join.html">Join</a>
+            <a href="about.html">About</a>
+            <a href="feedback.html">Feedback</a>
+
+            <p>"Karellina: Once a 'rellina', always 'Karellina' "</p>
+            <p>&copy;Karellina <br> All rights reserved</p>
+        </div>
+        
+        <div class="flinks">
+            <p>Reach me on:</p>
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.twitter.com">Twitter</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.telegram.com">Telegram</a>
+            <p>Let's go <a href="https://www.instagram/live.com">live....</a></p>
+        </div>
+
+        <div class="fmob">
+            <img src="karell.jpg" alt="Karaell">
+            <p>"Omuntu Wa Bantu"</p>
+        </div>
+
+        <div class="fmob">
+            <img src="Karell Hogoza.jpg" alt="">
+            <p>"My blog, my lifestyle"</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>

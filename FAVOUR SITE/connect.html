@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karellina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Hogoza.png" type="image/x-icon">
+</head>
+<body>
+    
+    <header>
+
+        <div class="blog_name">
+            <span>Karellina Blog</span>
+        </div>
+
+        <div class="hed_cont">
+            <h1>Karellina</h1>
+
+            <div id="ham" onclick="menu()" class="hambarger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div id="menu_link" class="links">
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a id="on" href="connect.html">Connect</a>
+                <a href="join.html">Join</a>
+                <a href="about.html">About</a>
+                <a href="feedback.html">Feedback</a>
+            </div>
+        </div>
+
+    </header>
+
+    <script>
+        function menu(){
+            var Ham = document.getElementById("ham");
+            var Menu = document.getElementById("menu_link");
+
+            Ham.classList.toggle("active");
+            Menu.classList.toggle("active");
+        }
+    </script>
+
+    <div class="main">
+
+        <h2>Connect With Me:</h2>
+
+        <div class="connect_area">
+
+            <p>Get updated with my community guidelines all in one place! The Karellina platform is always available for all members and subscribers. Inquire from me in my 
+                <a href="feedback.html">feedback</a> sector. All I can say is that I manage this site depending on your feedback, please inform me about any changes that you think my be of help to push this site to another level. 
+                I am free with any kind of comment in the <a href="feedback.html">feedback</a> sector. You can always stay in touch by <a href="join.html">joining</a> my community where we exhaust almost everything concerning achieving success.
+                Membership is free and registration is always open to everyone given time for holidays, because that's when you are back from school for holidays, short of that, I am not able to handle any community online gathering. A reminder, this blog is to share my experience with 
+                you not running a business, that's why I decided not to share issues about business in this blog. My 'articles' about achieving success are always shared in the community, posted on my <a href="portfolio.html">portoflio</a>. Check  out for more of my articles. Live community connections are 
+                available only on my social handles. Karellina is a free and reliable site for learning how make successful achievements. You're free to ask me about anything related to my successful experience in the form below. 
+            </p>
+
+            <img src="Karaell Hogoza.jpg" alt="">
+
+        </div>
+
+        <h2 class="success">Let's Go Success By Connecting With Me:</h2>
+
+        <div class="connect_form">
+            <form name="Connect To Karellina Form" netlify>
+                <input type="text" placeholder="-Name-" name="Name" required>
+                <input type="email" name="Email" placeholder="-Email-" required>
+                <textarea name="Question" placeholder="-Question-" required></textarea>
+
+                <input class="con_btn" type="submit" value="Send">
+                <input class="con_btn2" type="reset" value="Cancel">
+
+            </form>
+
+            <img src="karaell.jpg" alt="">
+        </div>
+
+        <h2 class="board">Governing Board:</h2>
+
+        <ul>
+            <li>Names of the chosen community leaders in every chosen period of time</li>
+        </ul>
+
+        <h2>Still <span class="load2">organising...</span></h2>
+
+        <div class="leaders">
+
+            <ol type="I">
+                <h2>Lovely GTG Family</h2>
+                <li>Hogoza Favour Karell Karellina Karaell (CEO)</li>
+                <li>Noah</li>
+                <li>Fabrigous</li>
+                <li>Prince</li>
+                <li>Gadson</li>
+                <li>Daniel</li>
+                <li class="load">Loading...</li>
+                <!-- <span>-Locked-</span> -->
+            </ol>
+
+        </div>
+
+        <p>The community leaders will be displayed above once chosen by me(Karellina) and other community members. Stay updated, if you like, by checking on the table to verify whether you're one of the chosen ones.</p>
+
+        <h2 class="board">Weekly Topics:</h2>
+        <ul>
+            <li>Weekly topics are launched here for you to prepare readily for the community chat. Our topics are not fixed, therefore, check out for any updates because new ideas are dropping in every day!</li>
+        </ul>
+
+        <h2>Still <span class="load">organising...</span></h2>
+
+        <div class="leaders">
+
+            <ol type="A">
+                <li>How do I become successful...?</li>
+                <li>Is there a way to pick up quickly in class...?</li>
+                <li>How do I get enough sleep...?</li>
+                <li>Well, how do I sing up for Instagram...?</li>
+                <li>Can someone fail even after serious revision...?</li>
+                <li class="load2">Loading...</li>
+                <!-- <span>-Locked-</span> -->
+            </ol>
+
+        </div>
+
+        <div class="con">
+            <div class="about_btn">
+                <button onclick="sub()" type="button">Subscribe</button>
+            </div>
+        </div>
+
+        <div id="subs" class="subscribe">
+
+            <form name="Subscribers Form" netlify>
+
+                <input type="text" name="Subscription Name" placeholder="-Full-Names-" required>
+                <input type="email" name="Subscription Email" placeholder="-Email-" required>
+
+                <input class="subs" type="submit" value="Subscribe">
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="flinks">
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="connect.html">Connect</a>
+            <a href="join.html">Join</a>
+            <a href="about.html">About</a>
+            <a href="feedback.html">Feedback</a>
+
+            <p>"Karellina: Once a 'rellina', always 'Karellina' "</p>
+            <p>&copy;Karellina <br> All rights reserved</p>
+        </div>
+        
+        <div class="flinks">
+            <p>Reach me on:</p>
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.twitter.com">Twitter</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.telegram.com">Telegram</a>
+            <p>Let's go <a href="https://www.instagram/live.com">live....</a></p>
+        </div>
+
+        <div class="fmob">
+            <img src="karell.jpg" alt="Karaell">
+            <p>"Omuntu Wa Bantu"</p>
+        </div>
+
+        <div class="fmob">
+            <img src="Karell Hogoza.jpg" alt="">
+            <p>"My blog, my lifestyle"</p>
+        </div>
+
+    </footer>
+
+    <script>
+
+        function sub(){
+            var subst = document.getElementById("subs");
+
+            subst.classList.toggle("sub");
+        }
+
+    </script>
+
+</body>
+</html>
